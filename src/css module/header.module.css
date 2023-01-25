@@ -1,0 +1,106 @@
+header {
+  background-color: white;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.linksdiv ul,
+.containMenue ul {
+  display: inline-block;
+  margin-bottom: 0;
+  margin-left: -55px;
+}
+.linksdiv li,
+.containMenue li {
+  list-style-type: none;
+  float: left;
+  margin: 0 15px;
+}
+.linksdiv li a,
+.aslink {
+  display: block;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+.cartdiv a
+{
+ color : black
+}
+.aslink:hover {
+  color: #c59b9c;
+}
+li a:hover {
+  color: #c59b9c;
+}
+.arrowicon {
+  position: relative;
+  top: 4px;
+}
+li:nth-of-type(2):hover .dropmenue {
+  visibility: visible;
+  opacity: 1;
+}
+
+header div {
+  align-self: center;
+}
+header .collaps {
+  display: none;
+}
+header .collaps > span {
+  margin: 8px;
+  display: block;
+  width: 30px;
+  height: 2px;
+  background-color: black;
+}
+.dropmenue {
+  width: 180px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  position: absolute;
+  top: 70px;
+  background-color: white;
+  visibility: hidden;
+  z-index: 10;
+  opacity: 0;
+  transition: all 0.3s linear;
+}
+.dropmenue li a {
+  transition: all 0.3s linear;
+}
+
+.dropmenue li a:hover {
+  transform: translateX(10px);
+}
+.cartIcon {
+  height: 35px;
+  width: 35px;
+}
+.numofpro {
+  position: relative;
+  background-color: red;
+  padding: 3px 5px;
+  border-radius: 50%;
+  color: white;
+  text-align: center;
+  top: -23px;
+  right: 10px;
+}
+@media (max-width: 768px) {
+  .linksdiv {
+    display: none;
+  }
+  header {
+    justify-content: space-between;
+    padding: 25px;
+  }
+  header .collaps {
+    display: block;
+  }
+}

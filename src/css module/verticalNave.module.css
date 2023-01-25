@@ -1,0 +1,62 @@
+.verticalNav {
+    position: fixed;
+    top: 0;
+    display: block;
+    height: 100%;
+    width: 45%;
+    transition: all 0.5s;
+    background-color: white;
+    z-index: 100;
+    transform: translateX(-160%);
+  }
+  .verticalNav .after {
+    width: 35px;
+    height: 30px;
+    position: absolute;
+    top: 8px;
+    display: block;
+    right: -37px;
+    background: #c59b9c;
+    cursor: pointer;
+    border-radius: 8px;
+    text-align: center;
+    padding-top: 10px;
+  }
+  .verticalNav .containMenue {
+    display: block;
+    width: 100%;
+  }
+  .containMenue h2 {
+    text-align: center;
+    padding: 30px 0;
+  }
+  
+  .containMenue li a {
+    display: block;
+    color: black;
+    font-weight: bold;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-transform: capitalize;
+    cursor: pointer;
+  }
+  .menue {
+    padding-left: 30px;
+    display: inline-block;
+    width: 100px;
+    transition: all 1.3s linear;
+    overflow: hidden;
+  }
+  
+  @media (max-width: 678px) {
+    .linksdiv {
+      display: none;
+    }
+    header .collaps {
+      display: block;
+    }
+    header {
+      padding: 30px;
+      justify-content: space-between;
+    }
+  }

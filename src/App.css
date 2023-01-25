@@ -1,38 +1,92 @@
-.App {
+.app,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#modal {
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 5;
+  display: none;
+  place-content: center;
+}
+.model-content {
+  background-color: white;
+  width: 50vw;
   text-align: center;
+  border-radius: 10px;
+  padding: 55px 0;
+  opacity: 1;
+  transition: all 1s;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.doneIcon {
+  color: rgba(0, 128, 0, 0.833);
+  font-weight: bold;
+  font-size: 100px;
+  padding: 15px;
+  border: 1px solid;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.08);
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
+@keyframes example {
   from {
-    transform: rotate(0deg);
+    opacity: 0;
   }
   to {
-    transform: rotate(360deg);
+    opacity: 1;
   }
+}
+.contact {
+  display: flex;
+  justify-content: center;
+}
+.left,
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: nowrap;
+  padding: 20px;
+  align-self: start;
+  width: 39%;
+}
+/*  */
+input {
+  width: 100%;
+  border: 1px solid #777777;
+  height: 27px;
+}
+
+.left div {
+  margin: 12px;
+}
+label {
+  margin-bottom: 13px;
+  color: #777777;
+}
+.sendbtn {
+  color: white;
+  background-color: #c59b9c;
+  padding: 12px;
+  border-style: none;
+}
+.conicon {
+  color: white;
+  background-color: #c59b9c;
+  padding: 5px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.right span {
+  font-weight: bold;
+}
+.right p {
+  color: #777777;
+}
+.right div h4 {
+  color: #c59b9c;
 }

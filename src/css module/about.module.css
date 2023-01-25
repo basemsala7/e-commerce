@@ -1,0 +1,33 @@
+.about {
+  padding: 50px 100px;
+}
+.about p {
+  color: #777;
+  padding-bottom: 25px;
+}
+.about p:last-child {
+  color: black;
+  font-weight: bold;
+}
+
+.moreAbout {
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 35px;
+}
+.moreAbout div {
+  background-color: white;
+  padding: 35px;
+  margin: 15px;
+}
+.moreAbout div .icon {
+  font-size: 85px;
+  color: #c59b9c;
+}
+
+@media screen and (max-width: 800px) {
+  .moreAbout {
+    flex-direction: column;
+  }
+}
