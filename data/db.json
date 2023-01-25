@@ -65,44 +65,7 @@
       "price": "139"
     }
   ],
-  "cart": [
-    {
-      "id": 2,
-      "title": "title of product ",
-      "name": "product name",
-      "image": "https://www.portotheme.com/wordpress/porto/shop23/wp-content/uploads/sites/95/2018/02/shop23_product-6-600x600.jpg",
-      "oldPrice": "150",
-      "price": "139",
-      "amount": 2
-    },
-    {
-      "id": 5,
-      "title": "title of product ",
-      "name": "product name",
-      "image": "https://www.portotheme.com/wordpress/porto/shop23/wp-content/uploads/sites/95/2019/06/product-12-600x600.jpg",
-      "oldPrice": "150",
-      "price": "139",
-      "amount": 2
-    },
-    {
-      "id": 3,
-      "title": "title of product ",
-      "name": "product name",
-      "image": "https://www.portotheme.com/wordpress/porto/shop23/wp-content/uploads/sites/95/2019/06/product-11-600x600.jpg",
-      "oldPrice": "150",
-      "price": "139",
-      "amount": 2
-    },
-    {
-      "id": 4,
-      "title": "title of product ",
-      "name": "product name",
-      "image": "https://www.portotheme.com/wordpress/porto/shop23/wp-content/uploads/sites/95/2019/06/product-10-600x600.jpg",
-      "oldPrice": "150",
-      "price": "110",
-      "amount": 1
-    }
-  ],
+  "cart": [  ],
   "comments": [
     {
       "id": 1,
